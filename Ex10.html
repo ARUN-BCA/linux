@@ -1,0 +1,100 @@
+<a href="index.html"> HOME </a>
+
+<h4>
+Exercise 10
+</h4>
+
+<h3>
+BIO-DATA
+</h3>
+#Biodata for 5 persons<br>
+name=("J.ARUN" "K.DINESH" "A.AZAR" "P.SIVA" "R.KISHORE")<br>
+fname=("V.JAYAKUMAR" "V.KANNAN" "A.ALAVUDIN" "S.PERIYASAMI" "K.REJENDRAN")<br>
+age=(21 22 23 24 22)<br>
+qual=(BCA MSC BA MA BSC)<br>
+adds=("34 east street trichy" "24 west street thanjavur" "56 ram nagar chennai" "88 tvs street tirunelveli" "98 ashok nagar kumbakonam")<br>
+phone=(0957988956 0007054677 0568548676 0555905876 0758853589)<br>
+skill=(PHP JAVA C++ JAVA PYTHON)<br>
+echo BIO DATA MENU<br>
+echo _____________________<br>
+echo 0 - ARUN<br>
+echo 1 - DINESH <br>
+echo 2 - AZAR<br>
+echo 3 - SIVA<br>
+echo 4 - KISHORE<br>
+echo _____________________<br>
+echo -n Enter your choice here---<br>
+read i <br>
+clear<br>
+echo -e "__________"<br>
+echo -e "BIO DATA"<br>
+echo -e "__________"<br>
+if [ $i -ge 0 ] && [ $i -le 4 ]<br>
+then<br>
+echo "Name                  ${name[$i]}"<br>
+echo "Father's name         ${fname[$i]}"<br>
+echo "Age                   ${age[$i]}"<br>
+echo "Qualification         ${qual[$i]}"<br>
+echo "Technical skill       ${skill[$i]}"<br>
+echo "Phone number          ${phone[$i]}"<br>
+echo "Address               ${adds[$i]}"<br>
+echo _____________________<br>
+else<br>
+echo wrong choice -------- try again ----------<br>
+fi<br>
+
+
+<h3>
+OUTPUT 1
+</h3>
+
+<p>
+	<pre>BIO DATA MENU
+_____________________
+0 - ARUN
+1 - DINESH
+2 - AZAR
+3 - SIVA
+4 - KISHORE
+_____________________
+Enter your choice here--- 0</pre>
+<pre>__________
+BIO DATA
+__________
+Name                  J.ARUN
+Father&apos;s name         V.JAYAKUMAR
+Age                   21
+Qualification         BCA
+Technical skill       PHP
+Phone number          0957988956
+Address               34 east street trichy
+_____________________
+</pre>
+
+<h3>
+OUTPUT 2
+</h3>
+<pre>BIO DATA MENU
+_____________________
+0 - ARUN
+1 - DINESH
+2 - AZAR
+3 - SIVA
+4 - KISHORE
+_____________________
+Enter your choice here---1
+
+</pre>
+<pre>__________
+BIO DATA
+__________
+Name                  K.DINESH
+Father&apos;s name         V.KANNAN
+Age                   22
+Qualification         MSC
+Technical skill       JAVA
+Phone number          0007054677
+Address               24 west street thanjavur
+_____________________
+</pre>
+</p>
